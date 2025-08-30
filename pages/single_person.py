@@ -6,6 +6,13 @@ from services.gemini_client import GeminiClient
 from config.prompts import STYLE_PROMPTS
 from utils.image_utils import validate_image, resize_image
 from utils.storage import save_uploaded_file
+import streamlit as st
+from services.api_manager import APIKeyManager
+
+# Initialize APIKeyManager once per session if missing
+if 'api_manager' not in st.session_state:
+    st.session_state.api_manager = APIKeyManager()
+
 
 st.set_page_config(page_title="Single Person Generator", page_icon="👤")
 
