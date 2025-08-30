@@ -1,0 +1,20 @@
+{
+  "keys": [
+    "AIzaSyDxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "AIzaSyEyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+    "AIzaSyFzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+    "AIzaSyGaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "AIzaSyHbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "AIzaSyIcccccccccccccccccccccccccccccccccc",
+    "AIzaSyJdddddddddddddddddddddddddddddddddd",
+    "AIzaSyKeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "AIzaSyLffffffffffffffffffffffffffffffffff",
+    "AIzaSyMgggggggggggggggggggggggggggggggggg"
+  ],
+  "settings": {
+    "rotation_strategy": "round_robin",
+    "error_cooldown_minutes": 5,
+    "rate_limit_cooldown_minutes": 1,
+    "max_retries_per_key": 3
+  }
+}
